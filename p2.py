@@ -97,8 +97,8 @@ def candidate_elimination(examples):
                   S = {s for s in S if not consistent(s, e)}
                   G = specialize_G(e, domains, G, S)
             print("For Training example {0}".format(i)) 
-            print("G[{0}]:".format(i), G)
-            print("S[{0}]:".format(i), S)
+            print("G[{0}]:".format(i), G,"\n")
+            print("S[{0}]:".format(i), S,"\n")
        return
    
 candidate_elimination(examples)
