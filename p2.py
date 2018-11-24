@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Nov 12 16:30:56 2018
-
-@author: Amrutha
+@author: imamankhatri
 """
 
 import csv
