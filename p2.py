@@ -1,4 +1,4 @@
-f = open('pg3_ds.csv','r')
+f = open('p2_ds.csv','r')
 lst = f.readline().split(',')
 length=len(lst)
 f.close();
