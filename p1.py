@@ -10,7 +10,7 @@ def read_data(filename):
         traindata=[]
         for row in datareader:
             traindata.append(row)
-        return (traindata)
+        return traindata
 
 #function for finding maximally specific set 
 def findS():
